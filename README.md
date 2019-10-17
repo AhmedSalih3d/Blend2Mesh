@@ -18,3 +18,7 @@ As a final note; remember to read licenses to check they suit your application.
 # Use in Scientific Papers etc.
 
 If you have used this tool in writing your journal/paper, I would really appreciate if you would reach out to me and/or reference this Github if it makes sense to do so. Thanks in advance.
+
+# Thanks to..
+
+My FEM teacher for taking time to advise me on how to improve this tool and speed up its performance.

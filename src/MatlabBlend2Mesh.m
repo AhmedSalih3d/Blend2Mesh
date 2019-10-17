@@ -23,9 +23,9 @@ function [elems,nodes] = BlenderIniplot(filename)
 end
 
 
-function f = facematrix(Node)
-    range = (1:numel(Node)-sum(sum(isnan(Node))));
-    f = Node';
+function f = facematrix(elems)
+    range = (1:numel(elems)-sum(sum(isnan(elems))));
+    f = elems';
     f(~isnan(f)) = range;
     f = f';
 end

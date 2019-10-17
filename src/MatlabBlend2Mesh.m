@@ -2,6 +2,10 @@
 % Made by: AhmedSalih3d
 % Github : https://github.com/AhmedSalih3d/Blend2Mesh
 
+% Remember to download "readNPY" and "readNPYheader", from 
+% https://github.com/kwikteam/npy-matlab to ensure this functionality
+% works. Remember to check licenses.
+
 %% Code with all functions inside
 % Remember to save "BlenderIniplot" function in a different file, with the
 % other two functions embedded if you want this to be a "commandline" tool.

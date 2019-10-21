@@ -9,6 +9,8 @@ Installing this tool is fairly easy. Download "Blend2Mesh" and save it somewhere
 Now when working in Blender it is possible, either by clicking the "Object" button and find "Blend2Mesh" option or by pressing F3 and searching for the "Blend2Mesh"
 command. Remember, this will only work with meshes so have one selected before hand - also files will be output where the blend file is saved.
 
+![Link Text](https://github.com/AhmedSalih3d/Blend2Mesh/blob/master/README_pictures/ObjectBlend2Mesh.png)
+
 # The File Format
 If you are familiar with Python, the file format is the single coloumn ".npy" format, which has a header with varius information (in readable format) and then rest of the binary data filled in. Two files will be output. "FileName-Elems.npy" will hold the information regarding which elements consists of which vertices/nodes. "FileName-Nodes.npy" will hold information about the spatial coordinates of each node. Using this information it is possible to replot/use this mesh in some kind of other software, for an example 2D FEM simulations.
 
